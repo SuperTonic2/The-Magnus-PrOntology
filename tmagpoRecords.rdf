@@ -1,0 +1,1499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:lang="en"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:po="https://purl.org/ontology/po/"
+    xmlns:sch="https://schema.org/"
+    xmlns:vra="http://purl.org/vra/"
+    xmlns:wiki="https://www.wikidata.org/wiki/" 
+    xmlns:foaf="http://xmlns.com/foaf/0.1/" 
+    xmlns:tmagpo="https://tmagpo.org" 
+    xml:base="https://tmagpo.org">
+    
+    
+    <!--
+    👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁
+     The Magnus Protocol (Series)
+    👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁
+    -->
+    
+    <rdf:Description rdf:ID ="TheMagnusProtocol">
+        <rdf:type rdf:resource="https://schema.org/PodcastSeries"/>
+        <dct:description rdf:resource="https://www.imdb.com/title/tt30969750"/>
+        <dct:description rdf:resource="https://rustyquill.com/show/the-magnus-protol"/>
+        <dct:title>The Magnus Protocol</dct:title>
+        <vra:creator>
+            <rdf:Seq>
+                <rdf:li>
+                    <rdf:Description rdf:about="http://viaf.org/viaf/56164779024708342921">
+                        <foaf:name>Jonathan Sims</foaf:name>
+                        <dct:description rdf:resource="https://www.imdb.com/name/nm11626866"/>
+                    </rdf:Description>
+                </rdf:li> 
+                <rdf:li>
+                    <rdf:Description rdf:about="https://www.imdb.com/name/nm11626865">
+                        <foaf:name>Alexander J. Newall</foaf:name>
+                        <foaf:workInfoHomepage rdf:resource="https://rustyquill.com/crew/alexander-j-newall"/>
+                        <foaf:homepage rdf:resource="https://www.alexanderjnewall.com"/>
+                    </rdf:Description>
+                </rdf:li>
+                    
+            </rdf:Seq>
+        </vra:creator>
+        <tmagpo:executiveProducer>
+            <rdf:Seq>
+                <rdf:li>          
+                    <rdf:Description rdf:about="https://www.imdb.com/name/nm12826506">
+                        <foaf:name>April Sumner</foaf:name>
+                        <foaf:workInfoHomepage rdf:resource="https://rustyquill.com/crew/april-sumner"/>
+                    </rdf:Description>
+                </rdf:li> 
+                <rdf:li rdf:resource="https://www.imdb.com/name/nm11626865"/>
+                    <!--Alexander J. Newall-->
+                <rdf:li rdf:resource="http://viaf.org/viaf/56164779024708342921"/> 
+                    <!--Jonathan Sims-->
+                <rdf:li>
+                    <rdf:Description rdf:ID="DaniMcDonough">
+                        <foaf:name>Dani McDonough</foaf:name>
+                    </rdf:Description>
+                </rdf:li>
+                <rdf:li>
+                    <rdf:Description rdf:ID="LinnCi">
+                        <foaf:name>Linn Ci</foaf:name>
+                    </rdf:Description>
+                </rdf:li>
+                <rdf:li>
+                    <rdf:Description rdf:ID="SamanthaFGHamilton">
+                        <foaf:name>Samantha F.G. Hamilton</foaf:name>
+                    </rdf:Description>
+                </rdf:li>
+            </rdf:Seq>
+        </tmagpo:executiveProducer>
+        <tmagpo:associateProducer>
+            <rdf:Seq>
+                <rdf:li>
+                    <rdf:Description rdf:ID="JordanLHawk">
+                        <foaf:name>Jordan L. Hawk</foaf:name>
+                    </rdf:Description>
+                </rdf:li>
+                <rdf:li>
+                    <rdf:Description rdf:ID="TaylorMichaels">
+                        <foaf:name>Taylor Michaels</foaf:name>
+                    </rdf:Description>
+                </rdf:li>
+                <rdf:li>
+                    <rdf:Description rdf:ID="NicolePerlman">
+                        <foaf:name>Nicole Perlman</foaf:name>
+                    </rdf:Description>
+                </rdf:li>
+                <rdf:li>
+                    <rdf:Description rdf:ID="CetiusdRaven">
+                        <foaf:name>Cetius d’Raven</foaf:name>
+                    </rdf:Description>
+                </rdf:li>
+                <rdf:li>
+                    <rdf:Description rdf:ID="MeganNice">
+                        <foaf:name>Megan Nice</foaf:name>
+                    </rdf:Description>
+                </rdf:li>
+            </rdf:Seq>
+        </tmagpo:associateProducer>
+        <sch:producer rdf:resource="https://www.imdb.com/name/nm12826506"/> 
+            <!--April Sumner-->
+        <sch:artist rdf:resource="https://www.imdb.com/name/nm12826506"/>
+            <!--April Sumner-->
+        <sch:productionCompany rdf:resource="https://www.wikidata.org/wiki/Q76473287"/>
+            <!--Rusty Quill-->
+        <dct:rights>The Magnus Protocol is a derivative product of the Magnus Archives, created by Rusty Quill Ltd. and licensed under a Creative Commons Attribution Non-Commercial Share alike 4.0 International Licence.</dct:rights>
+        <sch:license rdf:resource="https://creativecommons.org/licenses/by-nc-sa/4.0"/>
+    </rdf:Description>
+    
+    <!--
+    👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁
+     S1, Ep1: First Shift
+    👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁
+    -->
+    
+    <rdf:Description rdf:about="https://www.youtube.com/watch?v=uVsdu9eRAKY">
+        <rdf:type rdf:resource="https://schema.org/PodcastEpisode"/>
+        
+        <!--👁👁👁 Basic Episode Info 👁👁👁-->
+        
+        <dct:title>First Shift</dct:title>
+        <sch:seasonNumber>1</sch:seasonNumber>
+        <sch:episodeNumber>1</sch:episodeNumber>
+        <sch:datePublished>2024-01-18</sch:datePublished>
+        <sch:partOfSeries rdf:resource="#TheMagnusProtocol"/>
+        <tmagpo:episodeDuration>00:41:34</tmagpo:episodeDuration>
+        <tmagpo:incidentElement>
+            <rdf:Seq>
+                <rdf:li>strong language</rdf:li>
+                <rdf:li>jump scares</rdf:li>
+                <rdf:li>themes of grief, guilt</rdf:li>
+                <rdf:li>implied eye damage</rdf:li>
+                <rdf:li>Thanataphobia Scopophobia</rdf:li>
+                <rdf:li>SFX: loud noises, digital distortions, drinking</rdf:li>
+            </rdf:Seq>
+        </tmagpo:incidentElement>
+        
+        <!--👁👁👁 Characters and Actors 👁👁👁-->
+        
+        <sch:character>
+            <rdf:Seq>    
+                <rdf:li>
+                    <rdf:Description rdf:ID="AliceDyer">
+                        <rdf:type rdf:resource="https://tmagpo.org/OIAREmployee"/>
+                        <dct:description rdf:resource="https://themagnusprotocol.miraheze.org/wiki/Alice_Dyer"/>
+                        <sch:characterName>Alice Dyer</sch:characterName>
+                        <sch:actor>
+                            <rdf:Description rdf:about="https://www.imdb.com/name/nm14312274">
+                                <foaf:name>Billie Hindle</foaf:name>        
+                            </rdf:Description>
+                        </sch:actor>
+                    </rdf:Description>
+                </rdf:li>
+                <rdf:li>
+                    <rdf:Description rdf:ID="TeddyVaughn">
+                        <rdf:type rdf:resource="https://tmagpo.org/OIAREmployee"/>
+                        <dct:description rdf:resource="https://themagnusprotocol.miraheze.org/wiki/Teddy_Vaughn"/>
+                        <sch:characterName>Teddy Vaughn</sch:characterName>
+                        <sch:actor>
+                            <rdf:Description rdf:about="https://www.imdb.com/name/nm7417369">
+                                <foaf:name>Kazeem Tosin Amore</foaf:name>
+                            </rdf:Description>
+                        </sch:actor>
+                    </rdf:Description>
+                </rdf:li>              
+                <rdf:li>
+                    <rdf:Description rdf:ID="ColinBecher">
+                        <rdf:type rdf:resource="https://tmagpo.org/OIAREmployee"/>
+                        <dct:description rdf:resource="https://themagnusprotocol.miraheze.org/wiki/Colin_Becher"/>
+                        <sch:characterName>Colin Becher</sch:characterName>
+                        <sch:actor>
+                            <rdf:Description rdf:about="https://www.imdb.com/name/nm11163305">
+                                <foaf:name>Ryan Hopevere-Anderson</foaf:name>
+                            </rdf:Description>
+                        </sch:actor>
+                    </rdf:Description>
+                </rdf:li>          
+                <rdf:li>
+                    <rdf:Description rdf:ID="LenaKelley">
+                        <rdf:type rdf:resource="https://tmagpo.org/OIAREmployee"/>
+                        <dct:description rdf:resource="https://themagnusprotocol.miraheze.org/wiki/Lena_Kelley"/>
+                        <sch:characterName>Lena Kelley</sch:characterName>
+                        <sch:actor>
+                            <rdf:Description rdf:about="https://www.imdb.com/name/nm7236434">
+                                <foaf:name>Sarah Lambie</foaf:name>
+                            </rdf:Description>
+                        </sch:actor>
+                    </rdf:Description>
+                </rdf:li>
+                <rdf:li>
+                    <rdf:Description rdf:ID="GwendolynBouchard">
+                        <rdf:type rdf:resource="https://tmagpo.org/OIAREmployee"/>
+                        <dct:description rdf:resource="https://themagnusprotocol.miraheze.org/wiki/Gwendolyn_Bouchard"/>
+                        <sch:characterName>Gwendolyn Bouchard</sch:characterName>
+                        <sch:actor>
+                            <rdf:Description rdf:about="https://www.imdb.com/name/nm12672795">
+                                <foaf:name>Anusia Battersby</foaf:name>
+                            </rdf:Description>
+                        </sch:actor> 
+                    </rdf:Description>
+                </rdf:li>                
+                <rdf:li>
+                    <rdf:Description rdf:ID="SamamaKhalid">
+                        <rdf:type rdf:resource="https://tmagpo.org/OIAREmployee"/>
+                        <dct:description rdf:resource="https://themagnusprotocol.miraheze.org/wiki/Samama_Khalid"/>
+                        <sch:characterName>Samama Khalid</sch:characterName>
+                        <sch:actor>
+                            <rdf:Description rdf:about="https://www.imdb.com/name/nm12105145">
+                                <foaf:name>Shahan Hamza</foaf:name>
+                            </rdf:Description>
+                        </sch:actor> 
+                    </rdf:Description>
+                </rdf:li>                
+                <rdf:li>
+                    <rdf:Description rdf:ID="Norris">
+                        <rdf:type rdf:resource="https://tmagpo.org/FR3-d1Voice"/>
+                        <dct:description rdf:resource="https://themagnusprotocol.miraheze.org/wiki/Norris"/>
+                        <sch:characterName>Norris</sch:characterName>
+                        <sch:actor rdf:resource="https://www.imdb.com/name/nm11626865"/>
+                            <!--Alexander J. Newall-->
+                    </rdf:Description>
+                </rdf:li>
+                <rdf:li>
+                    <rdf:Description rdf:ID="Chester">
+                        <rdf:type rdf:resource="https://tmagpo.org/FR3-d1Voice"/>
+                        <dct:description rdf:resource="https://themagnusprotocol.miraheze.org/wiki/Chester"/>
+                        <sch:characterName>Chester</sch:characterName>
+                        <sch:actor rdf:resource="http://viaf.org/viaf/56164779024708342921"/>
+                            <!--Jonathan Sims-->
+                    </rdf:Description>
+                </rdf:li>
+            </rdf:Seq>
+        </sch:character>
+
+        <!--👁👁👁 Cases 👁👁👁-->
+        
+        <tmagpo:hasCase>
+            <rdf:Seq>
+                <rdf:li>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="https://tmagpo.org/Case"/>
+                        <tmagpo:oiarClass>CAT1RBC5257-12052022-09012024</tmagpo:oiarClass>
+                        <tmagpo:oiarClassCAT>1</tmagpo:oiarClassCAT>
+                        <tmagpo:oiarClassRank>BC</tmagpo:oiarClassRank>
+                        <tmagpo:oiarClassDPHW>5257</tmagpo:oiarClassDPHW>
+                        <tmagpo:oiarClassDPHWScore>Reanimation (Partial) -/- Regret</tmagpo:oiarClassDPHWScore>
+                        <tmagpo:caseFormat>Email</tmagpo:caseFormat>
+                        <tmagpo:oiarClassDateOccuredCode>12052022</tmagpo:oiarClassDateOccuredCode>
+                        <tmagpo:oiarClassDateOccured>2022-05-02</tmagpo:oiarClassDateOccured>
+                        <tmagpo:oiarClassDateFiledCode>09012024</tmagpo:oiarClassDateFiledCode>
+                        <tmagpo:oiarClassDateFiled>2024-01-09</tmagpo:oiarClassDateFiled>
+                        <tmagpo:caseReceivedBy rdf:resource="#SamamaKhalid"/>
+                        <tmagpo:fr3-d1VoiceReader rdf:resource="#Norris"/>
+                     </rdf:Description>
+                </rdf:li>
+                <rdf:li>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="https://tmagpo.org/Case"/>
+                        <tmagpo:oiarClass>CAT23RAB2155-10042022-09012024</tmagpo:oiarClass>
+                        <tmagpo:oiarClassCAT>23</tmagpo:oiarClassCAT>
+                        <tmagpo:oiarClassRank>AB</tmagpo:oiarClassRank>
+                        <tmagpo:oiarClassDPHW>2155</tmagpo:oiarClassDPHW>
+                        <tmagpo:oiarClassDPHWScore>Transformation (eyes) -/- Trespass</tmagpo:oiarClassDPHWScore>
+                        <tmagpo:caseFormat>chat log</tmagpo:caseFormat>
+                        <tmagpo:oiarClassDateOccuredCode>10042022</tmagpo:oiarClassDateOccuredCode>
+                        <tmagpo:oiarClassDateOccured>2022-10-04</tmagpo:oiarClassDateOccured>
+                        <tmagpo:oiarClassDateFiledCode>09012024</tmagpo:oiarClassDateFiledCode>
+                        <tmagpo:oiarClassDateFiled>2024-09-01</tmagpo:oiarClassDateFiled>
+                        <tmagpo:caseReceivedBy rdf:resource="#SamamaKhalid"/>
+                        <tmagpo:fr3-d1VoiceReader rdf:resource="#Chester"/>
+                    </rdf:Description>
+                </rdf:li>
+            </rdf:Seq>
+        </tmagpo:hasCase>
+        
+        <!--👁👁👁 Glitch Lines 👁👁👁-->
+        
+        <tmagpo:hasGlitchLine>
+            <rdf:Seq>
+                <rdf:li>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="https://tmagpo.org/GlitchLine"/>
+                        <tmagpo:line>"'course."</tmagpo:line>
+                        <tmagpo:speaker rdf:resource="#TeddyVaughn"/>
+                        <tmagpo:timestamp>00:03:46</tmagpo:timestamp>
+                    </rdf:Description>
+                </rdf:li>
+                <rdf:li>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="https://tmagpo.org/GlitchLine"/>
+                        <tmagpo:line>"Colin was just saying how much of a blast he’s having, isn’t that right?"</tmagpo:line>
+                        <tmagpo:speaker rdf:resource="#TeddyVaughn"/>
+                        <tmagpo:timestamp>00:05:40</tmagpo:timestamp>
+                    </rdf:Description>
+                </rdf:li>
+                <rdf:li>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="https://tmagpo.org/GlitchLine"/>
+                        <tmagpo:line>"Uh, sure."</tmagpo:line>
+                        <tmagpo:speaker rdf:resource="#ColinBecher"/>
+                        <tmagpo:timestamp>00:05:46</tmagpo:timestamp>
+                    </rdf:Description>
+                </rdf:li>
+                <rdf:li>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="https://tmagpo.org/GlitchLine"/>
+                        <tmagpo:line>"-and how he’d love to take the afterparty to the pub."</tmagpo:line>
+                        <tmagpo:speaker rdf:resource="#TeddyVaughn"/>
+                        <tmagpo:timestamp>00:05:47</tmagpo:timestamp>
+                    </rdf:Description>
+                </rdf:li>
+                <rdf:li>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="https://tmagpo.org/GlitchLine"/>
+                        <tmagpo:line>"I’m sorry to put it so bluntly"</tmagpo:line>
+                        <tmagpo:speaker rdf:resource="#LenaKelley"/>
+                        <tmagpo:timestamp>00:22:06</tmagpo:timestamp>
+                    </rdf:Description>
+                </rdf:li>
+                <rdf:li>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="https://tmagpo.org/GlitchLine"/>
+                        <tmagpo:line>"Well, tell Alice it was funny."</tmagpo:line>
+                        <tmagpo:speaker rdf:resource="#ColinBecher"/>
+                        <tmagpo:timestamp>00:23:17</tmagpo:timestamp>
+                    </rdf:Description>
+                </rdf:li>
+                <rdf:li>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="https://tmagpo.org/GlitchLine"/>
+                        <tmagpo:line>"Uh... yeah"</tmagpo:line>
+                        <tmagpo:speaker rdf:resource="#SamamaKhalid"/>
+                        <tmagpo:timestamp>00:35:15</tmagpo:timestamp>
+                    </rdf:Description>
+                </rdf:li>
+            </rdf:Seq>
+        </tmagpo:hasGlitchLine>
+        
+        <!--👁👁👁 Transcripts 👁👁👁-->
+        
+        <tmagpo:transcriptOfficial rdf:resource="https://assets.rustyquill.com/transcripts/the-magnus-protocol/1/MAGP%2001%20-%20First%20Shift_Transcript%202.0.pdf"/>
+        <tmagpo:transcriptUnofficial rdf:resource="https://ghostwires.github.io/transcripts/tmagp/001.html"/>
+        
+        <!--👁👁👁 Credits 👁👁👁-->
+        
+        <sch:director rdf:resource="https://www.imdb.com/name/nm11626865"/>
+            <!--Alexander J. Newall-->
+        <vra:writer>
+            <rdf:Seq>
+                <rdf:li rdf:resource="http://viaf.org/viaf/56164779024708342921"/> 
+                    <!--Jonathan Sims-->
+                <rdf:li rdf:resource="https://www.imdb.com/name/nm11626865"/>
+                    <!--Alexander J. Newall-->
+            </rdf:Seq>
+        </vra:writer>
+        <tmagpo:scriptEditor>
+            <rdf:Seq>
+                <rdf:li rdf:resource="http://viaf.org/viaf/56164779024708342921"/> 
+                    <!--Jonathan Sims-->
+                <rdf:li rdf:resource="https://www.imdb.com/name/nm11626865"/>
+                    <!--Alexander J. Newall-->
+            </rdf:Seq>
+        </tmagpo:scriptEditor>
+        <tmagpo:dialogueEditor>
+            <rdf:Seq>
+                <rdf:li>
+                    <rdf:Description rdf:about="https://www.imdb.com/name/nm9824774">
+                        <foaf:name>Lowri Ann Davies</foaf:name>
+                        <foaf:workInfoHomepage rdf:resource="https://rustyquill.com/crew/lowri-ann-davies"/>
+                    </rdf:Description>
+                </rdf:li>
+                <rdf:li>
+                    <rdf:Description rdf:about="https://www.imdb.com/name/nm/nm12785895">
+                        <foaf:name>Nico Vettese</foaf:name>
+                        <foaf:workInfoHomepage rdf:resource="https://rustyquill.com/crew/nico-vettese"/>
+                    </rdf:Description>
+                </rdf:li>
+            </rdf:Seq>
+        </tmagpo:dialogueEditor>
+        <tmagpo:soundDesigner>
+            <rdf:Description rdf:about="https://www.imdb.com/name/nm10321274">
+                <foaf:name>Katharine Seaton</foaf:name>
+                <foaf:workInfoHomepage rdf:resource="https://rustyquill.com/crew/katharine-seaton"/>
+                <foaf:homepage rdf:resource="https://katharineseatoncom.wordpress.com"/>
+            </rdf:Description> 
+        </tmagpo:soundDesigner>
+        <tmagpo:masteringEditor>
+            <rdf:Description rdf:about="https://www.imdb.com/name/nm11724125">
+                <foaf:name>Catherine Rinella</foaf:name>
+                <foaf:workInfoHomepage rdf:resource="https://rustyquill.com/crew/catherine-rinella"/>
+            </rdf:Description>
+        </tmagpo:masteringEditor>
+        <sch:musicBy>
+            <rdf:Description rdf:about="https://www.imdb.com/name/nm6628404">
+                <foaf:name>Sam Jones</foaf:name>
+                <foaf:homepage rdf:resource="https://samjones.net"/>
+            </rdf:Description>
+        </sch:musicBy>
+        <tmagpo:orchestrationBy>
+            <rdf:Description rdf:ID="JakeJackson">
+                <foaf:name>Jake Jackson</foaf:name>
+            </rdf:Description>
+        </tmagpo:orchestrationBy>
+        
+        <!--👁👁👁 References 👁👁👁-->
+        
+        <dct:description rdf:resource="https://themagnusprotocol.miraheze.org/wiki/MAGP_1:_First_Shift"/>
+        
+    </rdf:Description>
+    
+    <!--
+    👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁
+     S1, Ep2: Making Adjustments
+    👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁
+    -->
+    
+    <rdf:Description rdf:about="https://www.youtube.com/watch?v=L1-CdWGuKDs">
+        <rdf:type rdf:resource="https://schema.org/PodcastEpisode"/>
+        
+        <!--👁👁👁 Basic Episode Info 👁👁👁-->
+        
+        <dct:title>Making Adjustments</dct:title>
+        <sch:seasonNumber>1</sch:seasonNumber>
+        <sch:episodeNumber>2</sch:episodeNumber>
+        <sch:datePublished>2024-01-18</sch:datePublished>
+        <sch:partOfSeries rdf:resource="#TheMagnusProtocol"/>
+        <tmagpo:episodeDuration>00:28:45</tmagpo:episodeDuration>
+        <tmagpo:incidentElement>
+            <rdf:Seq>
+                <rdf:li>Body modification</rdf:li>
+                <rdf:li>Dysmorphia/Dysphoria</rdf:li>
+                <rdf:li>Addiction/Mania</rdf:li>
+                <rdf:li>Self-harm</rdf:li>
+                <rdf:li>Therapy</rdf:li>
+                <rdf:li>Burnout</rdf:li>
+                <rdf:li>Needles (tattoo)</rdf:li>
+                <rdf:li>Discussion of: Suicide/Self-Harm</rdf:li>
+            </rdf:Seq>
+        </tmagpo:incidentElement>
+    
+        <!--👁👁👁 Characters and Actors 👁👁👁-->
+        
+        <sch:character>
+            <rdf:Seq>
+                <rdf:li rdf:resource="#AliceDyer"/>
+                <rdf:li rdf:resource="#GwendolynBouchard"/>
+                <rdf:li rdf:resource="#SamamaKhalid"/>
+                <rdf:li>
+                    <rdf:Description rdf:ID="Daria">
+                        <rdf:type rdf:resource="https://tmagpo.org/MPCharacter"/>
+                        <sch:characterName>Daria</sch:characterName>
+                        <sch:actor>
+                            <rdf:Description rdf:about="https://www.imdb.com/name/nm8369189">
+                                <foaf:name>Kate Sketchley</foaf:name>
+                            </rdf:Description>
+                        </sch:actor> 
+                    </rdf:Description>
+                </rdf:li>                  
+                <rdf:li>
+                    <rdf:Description rdf:ID="Therapist">
+                        <rdf:type rdf:resource="https://tmagpo.org/MPCharacter"/>
+                        <sch:characterName>Therapist</sch:characterName>
+                        <sch:actor>
+                            <rdf:Description rdf:about="https://www.imdb.com/name/nm12833973">
+                                <foaf:name>Jenny Haufek</foaf:name>
+                            </rdf:Description>
+                        </sch:actor> 
+                    </rdf:Description>
+                </rdf:li>   
+            </rdf:Seq>
+        </sch:character>
+
+    
+        <!--👁👁👁 Cases 👁👁👁-->
+        
+        <tmagpo:hasCase>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://tmagpo.org/Case"/>
+                <tmagpo:oiarClass>CAT3RBC1567-23092022-18012024</tmagpo:oiarClass>
+                <tmagpo:oiarClassCAT>3</tmagpo:oiarClassCAT>
+                <tmagpo:oiarClassRank>BC</tmagpo:oiarClassRank>
+                <tmagpo:oiarClassDPHW>1567</tmagpo:oiarClassDPHW>
+                <tmagpo:oiarClassDPHWScore>Transformation (full) -/- dysmorphic [video call]</tmagpo:oiarClassDPHWScore>
+                <tmagpo:oiarClassDateOccuredCode>23092022</tmagpo:oiarClassDateOccuredCode>
+                <tmagpo:oiarClassDateOccured>2022-09-23</tmagpo:oiarClassDateOccured>
+                <tmagpo:oiarClassDateFiledCode>18012024</tmagpo:oiarClassDateFiledCode>
+                <tmagpo:oiarClassDateFiled>2024-01-18</tmagpo:oiarClassDateFiled>
+                <tmagpo:caseReceivedBy rdf:resource="#SamamaKhalid"/>
+            </rdf:Description>
+        </tmagpo:hasCase>
+        
+        <!--👁👁👁 Transcripts 👁👁👁-->
+        
+        <tmagpo:transcriptOfficial rdf:resource="https://assets.rustyquill.com/transcripts/the-magnus-protocol/1/MAGP%2002%20-%20Making%20Adjustments_Transcript%202.0.pdf"/>
+        <tmagpo:transcriptUnofficial rdf:resource="https://ghostwires.github.io/transcripts/tmagp/002.html"/>
+        
+        <!--👁👁👁 Credits 👁👁👁-->
+        
+        <sch:director rdf:resource="https://www.imdb.com/name/nm11626865"/>
+            <!--Alexander J. Newall-->
+        <vra:writer rdf:resource="https://www.imdb.com/name/nm11626865"/>
+            <!--Alexander J. Newall-->
+        <tmagpo:scriptEditor rdf:resource="http://viaf.org/viaf/56164779024708342921"/>
+            <!--Jonathan Sims-->
+        <tmagpo:dialogueEditor  rdf:resource="https://www.imdb.com/name/nm9824774"/>
+            <!--Lowri Ann Davies-->
+        <tmagpo:soundDesigner>
+            <rdf:Description rdf:about="https://www.imdb.com/name/nm12913195">
+                <foaf:name>Tessa Vroom</foaf:name>
+                <foaf:workInfoHomepage rdf:resource="https://rustyquill.com/crew/tessa-vroom"/>
+            </rdf:Description>
+        </tmagpo:soundDesigner>
+        <tmagpo:masteringEditor rdf:resource="https://www.imdb.com/name/nm11724125"/>
+            <!--Catherine Rinella-->
+        <sch:musicBy rdf:resource="https://www.imdb.com/name/nm6628404"/>
+            <!--Sam Jones-->
+        <tmagpo:orchestrationBy rdf:resource="#JakeJackson"/>
+        
+        <!--👁👁👁 References 👁👁👁-->
+        
+        <dct:description rdf:resource="https://themagnusprotocol.miraheze.org/wiki/MAGP_2:_Making_Adjustments"/>
+
+    </rdf:Description>
+    
+    <!--
+    👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁
+     S1, Ep3: Putting Down Roots
+    👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁
+    -->
+    
+    <rdf:Description rdf:about="https://www.youtube.com/watch?v=dDT14HDjwuE">
+        <rdf:type rdf:resource="https://schema.org/PodcastEpisode"/>
+        
+        <!--👁👁👁 Basic Episode Info 👁👁👁-->
+        
+        <dct:title>Putting Down Roots</dct:title>
+        <sch:seasonNumber>1</sch:seasonNumber>
+        <sch:episodeNumber>3</sch:episodeNumber>
+        <sch:datePublished>2024-01-25</sch:datePublished>
+        <sch:partOfSeries rdf:resource="#TheMagnusProtocol"/>
+        <tmagpo:episodeDuration>00:25:34</tmagpo:episodeDuration>
+        <tmagpo:incidentElement>
+            <rdf:Seq>
+                <rdf:li>Temporal Distortion</rdf:li>
+                <rdf:li>Compulsion/OCD</rdf:li>
+                <rdf:li>Auditory Hallucinations</rdf:li>
+                <rdf:li>Disorientation</rdf:li>
+                <rdf:li>Hypochondria</rdf:li>
+                <rdf:li>Paranoia</rdf:li>
+                <rdf:li>Self-Injury</rdf:li>
+            </rdf:Seq>
+        </tmagpo:incidentElement>
+        
+        <!--👁👁👁 Characters and Actors 👁👁👁-->
+        
+        <sch:character>
+            <rdf:Seq>
+                <rdf:li rdf:resource="#ColinBecher"/>
+                <rdf:li rdf:resource="#AliceDyer"/>
+                <rdf:li rdf:resource="#Norris"/>
+                <rdf:li rdf:resource="#SamamaKhalid"/>
+                <rdf:li rdf:resource="#GwendolynBouchard"/>
+            </rdf:Seq>
+        </sch:character>
+        
+        <!--👁👁👁 Cases 👁👁👁-->
+        
+        <tmagpo:hasCase>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://tmagpo.org/Case"/>
+                <tmagpo:oiarClass>CAT2C8175-03042009-22012024</tmagpo:oiarClass>
+                <tmagpo:oiarClassCAT>2</tmagpo:oiarClassCAT>
+                <tmagpo:oiarClassRank>C</tmagpo:oiarClassRank>
+                <tmagpo:oiarClassDPHW>8175</tmagpo:oiarClassDPHW>
+                <tmagpo:oiarClassDPHWScore>Infection (full body) -/- arboreal [journal entry]</tmagpo:oiarClassDPHWScore>
+                <tmagpo:oiarClassDateOccuredCode>03042009</tmagpo:oiarClassDateOccuredCode>
+                <tmagpo:oiarClassDateOccured>2009-04-03</tmagpo:oiarClassDateOccured>
+                <tmagpo:oiarClassDateFiledCode>22012024</tmagpo:oiarClassDateFiledCode>
+                <tmagpo:oiarClassDateFiled>2024-01-22</tmagpo:oiarClassDateFiled>
+                <tmagpo:caseReceivedBy rdf:resource="#AliceDyer"/>
+            </rdf:Description>
+        </tmagpo:hasCase>
+        
+        <!--👁👁👁 Transcripts 👁👁👁-->
+        
+        <tmagpo:transcriptOfficial rdf:resource="https://assets.rustyquill.com/transcripts/the-magnus-protocol/1/MAGP%2003%20-%20Putting%20Down%20Roots_Transcript%202.0.pdf"/>
+        <tmagpo:transcriptUnofficial rdf:resource="https://ghostwires.github.io/transcripts/tmagp/003.html"/>
+        
+        <!--👁👁👁 Credits 👁👁👁-->
+        
+        <sch:director rdf:resource="https://www.imdb.com/name/nm11626865"/>
+            <!--Alexander J. Newall-->
+        <vra:writer>
+            <rdf:Description rdf:about="https://www.imdb.com/name/nm4368340">
+                <foaf:name>Graeme Patrick</foaf:name>
+            </rdf:Description>
+        </vra:writer>
+        <tmagpo:scriptEditor>
+            <rdf:Seq>
+                <rdf:li rdf:resource="http://viaf.org/viaf/56164779024708342921"/> 
+                    <!--Jonathan Sims-->
+                <rdf:li rdf:resource="https://www.imdb.com/name/nm11626865"/>
+                    <!--Alexander J. Newall-->
+            </rdf:Seq>
+        </tmagpo:scriptEditor>
+        <tmagpo:dialogueEditor rdf:resource="https://www.imdb.com/name/nm12785895"/>
+            <!--Nico Vettese-->
+        <tmagpo:soundDesigner>
+            <rdf:Description rdf:about="https://www.imdb.com/name/nm14174093">
+                <foaf:name>Meg McKellar</foaf:name>
+                <foaf:workInfoHomepage rdf:resource="https://rustyquill.com/crew/meg-mckellar"/>
+            </rdf:Description>
+        </tmagpo:soundDesigner>
+        <tmagpo:masteringEditor rdf:resource="https://www.imdb.com/name/nm11724125"/>
+            <!--Catherine Rinella-->
+        <sch:musicBy rdf:resource="https://www.imdb.com/name/nm6628404"/>
+            <!--Sam Jones-->
+        <tmagpo:orchestrationBy rdf:resource="#JakeJackson"/>
+        
+        <!--👁👁👁 References 👁👁👁-->
+        
+        <dct:description rdf:resource="https://themagnusprotocol.miraheze.org/wiki/MAGP_3:_Putting_Down_Roots"/>
+        
+    </rdf:Description>
+    
+    <!--
+    👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁
+     S1, Ep4: Taking Notes
+    👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁
+    -->
+    
+    <rdf:Description rdf:about="https://www.youtube.com/watch?v=JfHBaDXCM2o">
+        <rdf:type rdf:resource="https://schema.org/PodcastEpisode"/>
+    
+        <!--👁👁👁 Basic Episode Info 👁👁👁-->
+        
+        <dct:title>Taking Notes</dct:title>
+        <sch:seasonNumber>1</sch:seasonNumber>
+        <sch:episodeNumber>4</sch:episodeNumber>
+        <sch:datePublished>2024-02-01</sch:datePublished>
+        <sch:partOfSeries rdf:resource="#TheMagnusProtocol"/>
+        <tmagpo:episodeDuration>00:30:01</tmagpo:episodeDuration>
+        <tmagpo:incidentElement>
+            <rdf:Seq>
+                <rdf:li>Blood</rdf:li>
+                <rdf:li>Gore</rdf:li>
+                <rdf:li>Violence</rdf:li>
+                <rdf:li>Hysteria</rdf:li>
+                <rdf:li>Suicide</rdf:li>
+                <rdf:li>Self-harm</rdf:li>
+            </rdf:Seq>
+        </tmagpo:incidentElement>
+    
+        <!--👁👁👁 Characters and Actors 👁👁👁-->
+        
+        <sch:character>
+            <rdf:Seq>
+                <rdf:li rdf:resource="#AliceDyer"/>
+                <rdf:li rdf:resource="#SamamaKhalid"/>
+                <rdf:li rdf:resource="#GwendolynBouchard"/>
+                <rdf:li>
+                    <rdf:Description rdf:ID="Augustus">
+                        <rdf:type rdf:resource="https://tmagpo.org/FR3-d1Voice"/>
+                        <dct:description rdf:resource="https://themagnusprotocol.miraheze.org/wiki/Augustus"/>
+                        <sch:characterName>Augustus</sch:characterName>
+                        <sch:actor>
+                            <rdf:Description rdf:about="https://www.imdb.com/name/nm2431674">
+                                <foaf:name>Tim Fearon</foaf:name>
+                            </rdf:Description>
+                        </sch:actor>
+                    </rdf:Description>
+                </rdf:li>
+                <rdf:li rdf:resource="#LenaKelley"/>
+                <rdf:li>
+                    <rdf:Description rdf:ID="Klaus">
+                        <rdf:type rdf:resource="https://tmagpo.org/OIAREmployee"/>
+                        <dct:description rdf:resource="https://themagnusprotocol.miraheze.org/wiki/Klaus"/>
+                        <sch:characterName>Klaus</sch:characterName>
+                        <sch:actor>
+                            <rdf:Description rdf:about="https://www.imdb.com/name/nm15783696">
+                                <foaf:name>Paul Schmidt</foaf:name>
+                            </rdf:Description>
+                        </sch:actor>
+                    </rdf:Description>
+                </rdf:li>
+            </rdf:Seq>
+        </sch:character>
+        
+        <!--👁👁👁 Cases 👁👁👁-->
+        
+        <tmagpo:hasCase>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://tmagpo.org/Case"/>
+                <tmagpo:oiarClass>CAT3C7494-19111831-29012024</tmagpo:oiarClass>
+                <tmagpo:oiarClassCAT>3</tmagpo:oiarClassCAT>
+                <tmagpo:oiarClassRank>C</tmagpo:oiarClassRank>
+                <tmagpo:oiarClassDPHW>7494</tmagpo:oiarClassDPHW>
+                <tmagpo:oiarClassDPHWScore>Collection (blood) -/- musical [letter]</tmagpo:oiarClassDPHWScore>
+                <tmagpo:oiarClassDateOccuredCode>19111831</tmagpo:oiarClassDateOccuredCode>
+                <tmagpo:oiarClassDateOccured>1831-11-19</tmagpo:oiarClassDateOccured>
+                <tmagpo:oiarClassDateFiledCode>29012024</tmagpo:oiarClassDateFiledCode>
+                <tmagpo:oiarClassDateFiled>2024-01-29</tmagpo:oiarClassDateFiled>
+                <tmagpo:caseReceivedBy rdf:resource="#GwendolynBouchard"/>
+            </rdf:Description>
+        </tmagpo:hasCase>
+        
+        <!--👁👁👁 Glitch Lines 👁👁👁-->
+        
+        <tmagpo:hasGlitchLine>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://tmagpo.org/GlitchLine"/>
+                <tmagpo:line>"Okay, okay! I get it. Consider me scared straight."</tmagpo:line>
+                <tmagpo:speaker rdf:resource="#SamamaKhalid"/>
+                <tmagpo:timestamp>00:03:12</tmagpo:timestamp>
+            </rdf:Description>
+        </tmagpo:hasGlitchLine>
+        
+        <!--👁👁👁 Transcripts 👁👁👁-->
+        
+        <tmagpo:transcriptOfficial rdf:resource="https://assets.rustyquill.com/transcripts/the-magnus-protocol/1/MAGP%2004%20-%20Taking%20Notes_Transcript%202.0.pdf"/>
+        <tmagpo:transcriptUnofficial rdf:resource="https://ghostwires.github.io/transcripts/tmagp/004.html"/>
+        
+        <!--👁👁👁 Credits 👁👁👁-->
+        
+        <sch:director rdf:resource="https://www.imdb.com/name/nm11626865"/>
+            <!--Alexander J. Newall-->
+        <vra:writer rdf:resource="https://www.imdb.com/name/nm13904123"/>
+            <!--Cole Weavers-->
+        <vra:writer>
+            <rdf:Description rdf:about="https://www.imdb.com/name/nm13904123">
+                <foaf:name>Cole Weavers</foaf:name>
+                <dct:description rdf:resource="https://the-podcast-archives.fandom.com/wiki/Cole_Weavers"/>
+            </rdf:Description>
+        </vra:writer>
+        <tmagpo:scriptEditor>
+            <rdf:Seq>
+                <rdf:li rdf:resource="http://viaf.org/viaf/56164779024708342921"/> 
+                    <!--Jonathan Sims-->
+                <rdf:li rdf:resource="https://www.imdb.com/name/nm11626865"/>
+                    <!--Alexander J. Newall-->
+            </rdf:Seq>
+        </tmagpo:scriptEditor>
+        <tmagpo:dialogueEditor  rdf:resource="https://www.imdb.com/name/nm9824774"/>
+            <!--Lowri Ann Davies-->
+        <tmagpo:soundDesigner rdf:resource="https://www.imdb.com/name/nm12913195"/>
+            <!--Tessa Vroom-->
+        <tmagpo:masteringEditor rdf:resource="https://www.imdb.com/name/nm11724125"/>
+            <!--Catherine Rinella-->
+        <sch:musicBy rdf:resource="https://www.imdb.com/name/nm6628404"/>
+            <!--Sam Jones-->
+        <tmagpo:orchestrationBy rdf:resource="#JakeJackson"/>
+        
+        <!--👁👁👁 References 👁👁👁-->
+        
+        <dct:description rdf:resource="https://themagnusprotocol.miraheze.org/wiki/MAGP_4:_Taking_Notes"/>
+    
+    </rdf:Description>
+    
+    <!--
+    👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁
+     S1, Ep5: Personal Screening
+    👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁
+    -->
+    
+    <rdf:Description rdf:about="https://www.youtube.com/watch?v=KEyhIYWGyNU">
+        <rdf:type rdf:resource="https://schema.org/PodcastEpisode"/>
+        
+        <!--👁👁👁 Basic Episode Info 👁👁👁-->
+        
+        <dct:title>Personal Screening</dct:title>
+        <sch:seasonNumber>1</sch:seasonNumber>
+        <sch:episodeNumber>5</sch:episodeNumber>
+        <sch:datePublished>2024-02-08</sch:datePublished>
+        <sch:partOfSeries rdf:resource="#TheMagnusProtocol"/>
+        <tmagpo:episodeDuration>00:22:42</tmagpo:episodeDuration>
+        <tmagpo:incidentElement>
+            <rdf:Seq>
+                <rdf:li>Negligent work environment</rdf:li>
+                <rdf:li>Isolation</rdf:li>
+                <rdf:li>Surveillance</rdf:li>
+                <rdf:li>Mentions of - workplace counselling</rdf:li>
+            </rdf:Seq>
+        </tmagpo:incidentElement>
+        
+        <!--👁👁👁 Characters and Actors 👁👁👁-->
+        
+        <sch:character>
+            <rdf:Seq>    
+                <rdf:li rdf:resource="#LenaKelley"/>
+                <rdf:li rdf:resource="#SamamaKhalid"/>
+                <rdf:li rdf:resource="#AliceDyer"/>
+                <rdf:li rdf:resource="#GwendolynBouchard"/>
+                <rdf:li rdf:resource="#Chester"/>
+            </rdf:Seq>
+        </sch:character>
+        
+        <!--👁👁👁 Cases 👁👁👁-->
+        
+        <tmagpo:hasCase>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://tmagpo.org/Case"/>
+                <tmagpo:oiarClass>CAT2RB2377-10012023-05022024</tmagpo:oiarClass>
+                <tmagpo:oiarClassCAT>2</tmagpo:oiarClassCAT>
+                <tmagpo:oiarClassRank>B</tmagpo:oiarClassRank>
+                <tmagpo:oiarClassDPHW>2377</tmagpo:oiarClassDPHW>
+                <tmagpo:oiarClassDPHWScore>Disappearance (undetermined) -/- Invitation</tmagpo:oiarClassDPHWScore>
+                <tmagpo:caseFormat>internet blog</tmagpo:caseFormat>
+                <tmagpo:oiarClassDateOccuredCode>10012023</tmagpo:oiarClassDateOccuredCode>
+                <tmagpo:oiarClassDateOccured>2023-01-10</tmagpo:oiarClassDateOccured>
+                <tmagpo:oiarClassDateFiledCode>05022024</tmagpo:oiarClassDateFiledCode>
+                <tmagpo:oiarClassDateFiled>2024-02-05</tmagpo:oiarClassDateFiled>
+                <tmagpo:caseReceivedBy rdf:resource="#SamamaKhalid"/>
+                <tmagpo:fr3-d1VoiceReader rdf:resource="#Chester"/>
+            </rdf:Description>
+        </tmagpo:hasCase>
+        
+        <!--👁👁👁 Glitch Lines 👁👁👁-->
+        
+        <tmagpo:hasGlitchLine>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://tmagpo.org/GlitchLine"/>
+                <tmagpo:line>"I am certain that should he find his responsibilities unmanageable he will request assistance. Or resign of course."</tmagpo:line>
+                <tmagpo:speaker rdf:resource="#LenaKelley"/>
+                <tmagpo:timestamp>00:03:20</tmagpo:timestamp>
+            </rdf:Description>
+        </tmagpo:hasGlitchLine>
+        
+        <!--👁👁👁 Transcripts 👁👁👁-->
+        
+        <tmagpo:transcriptOfficial rdf:resource="https://assets.rustyquill.com/transcripts/the-magnus-protocol/1/MAGP%2005%20-%20Personal%20Screening_Transcript%202.0.pdf"/>
+        <tmagpo:transcriptUnofficial rdf:resource="https://ghostwires.github.io/transcripts/tmagp/005.html"/>
+        
+        <!--👁👁👁 Credits 👁👁👁-->
+        
+        <sch:director rdf:resource="https://www.imdb.com/name/nm11626865"/>
+            <!--Alexander J. Newall-->
+        <vra:writer>
+            <rdf:Seq>
+                <rdf:li rdf:resource="https://www.imdb.com/name/nm11626865"/>
+                    <!--Alexander J. Newall-->
+                <rdf:li>
+                    <rdf:Description rdf:about="https://www.imdb.com/name/nm5470769">
+                        <foaf:name>Jamie Lee Petronis</foaf:name>
+                        <dct:description rdf:resource="https://the-podcast-archives.fandom.com/wiki/Jamie_Petronis"/>
+                    </rdf:Description>
+                </rdf:li>
+            </rdf:Seq>
+        </vra:writer>
+        <tmagpo:scriptEditor>
+            <rdf:Seq>
+                <rdf:li rdf:resource="http://viaf.org/viaf/56164779024708342921"/> 
+                    <!--Jonathan Sims-->
+                <rdf:li rdf:resource="https://www.imdb.com/name/nm11626865"/>
+                    <!--Alexander J. Newall-->
+            </rdf:Seq>
+        </tmagpo:scriptEditor>
+        <tmagpo:dialogueEditor rdf:resource="https://www.imdb.com/name/nm12785895"/>
+            <!--Nico Vettese-->
+        <tmagpo:soundDesigner rdf:resource="https://www.imdb.com/name/nm14174093"/>
+            <!--Meg McKellar-->
+        <tmagpo:masteringEditor rdf:resource="https://www.imdb.com/name/nm11724125"/>
+            <!--Catherine Rinella-->
+        <sch:musicBy rdf:resource="https://www.imdb.com/name/nm6628404"/>
+            <!--Sam Jones-->
+        <tmagpo:orchestrationBy rdf:resource="#JordanLHawk"/>
+        
+        <!--👁👁👁 References 👁👁👁-->
+        
+        <dct:description rdf:resource="https://themagnusprotocol.miraheze.org/wiki/MAGP_5:_Personal_Screening"/>
+        
+    </rdf:Description>
+    
+    <!--
+    👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁
+     S1, Ep6: Introductions
+    👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁
+    -->
+    
+    <rdf:Description rdf:about="https://www.youtube.com/watch?v=_P8TrRlIlh0">
+        <rdf:type rdf:resource="https://schema.org/PodcastEpisode"/>
+        
+        <!--👁👁👁 Basic Episode Info 👁👁👁-->
+        
+        <dct:title>Introductions</dct:title>
+        <sch:seasonNumber>1</sch:seasonNumber>
+        <sch:episodeNumber>6</sch:episodeNumber>
+        <sch:datePublished>2024-02-15</sch:datePublished>
+        <sch:partOfSeries rdf:resource="#TheMagnusProtocol"/>
+        <tmagpo:episodeDuration>00:20:17</tmagpo:episodeDuration>
+        <tmagpo:incidentElement>
+            <rdf:Seq>
+                <rdf:li>Needles</rdf:li>
+                <rdf:li>Sadism</rdf:li>
+                <rdf:li>Stalking</rdf:li>
+                <rdf:li>Eye injury</rdf:li>
+                <rdf:li>Mentions of – mugging, implied murder</rdf:li>
+                <rdf:li>SFX – pained screams</rdf:li>
+            </rdf:Seq>
+        </tmagpo:incidentElement>
+        
+        <!--👁👁👁 Characters and Actors 👁👁👁-->
+        
+        <sch:character>
+            <rdf:Seq>    
+                <rdf:li rdf:resource="#SamamaKhalid"/>
+                <rdf:li rdf:resource="#AliceDyer"/>
+                <rdf:li rdf:resource="#GwendolynBouchard"/>
+                <rdf:li>
+                    <rdf:Description rdf:ID="Operator1">
+                        <rdf:type rdf:resource="https://tmagpo.org/MPCharacter"/>
+                        <sch:characterName>Operator 1</sch:characterName>
+                        <sch:actor>
+                            <rdf:Description rdf:ID="HattieQuinlan">
+                                <foaf:name>Hattie Quinlan</foaf:name> 
+                                <foaf:workInfoHomepage rdf:resource="https://rustyquill.com/crew/hattie-quinlan/"/>
+                            </rdf:Description>
+                        </sch:actor>
+                    </rdf:Description>
+                </rdf:li>
+                <rdf:li>
+                    <rdf:Description rdf:ID="Needles">
+                        <rdf:type rdf:resource="https://tmagpo.org/MPCharacter"/>
+                        <dct:description rdf:resource="https://themagnusprotocol.miraheze.org/wiki/Needles"/>
+                        <sch:characterName>Needles</sch:characterName>
+                        <sch:actor>
+                            <rdf:Description rdf:about="https://www.imdb.com/name/nm14930937">
+                                <foaf:name>Harry Roebuck</foaf:name>        
+                            </rdf:Description>
+                        </sch:actor>
+                    </rdf:Description>
+                </rdf:li>
+                <rdf:li>
+                    <rdf:Description rdf:ID="Operator2">
+                        <rdf:type rdf:resource="https://tmagpo.org/MPCharacter"/>
+                        <sch:characterName>Operator 2</sch:characterName>
+                        <sch:actor>
+                            <rdf:Description rdf:ID="TomPark">
+                                <foaf:name>Tom Park</foaf:name>
+                                <foaf:workInfoHomepage rdf:resource="https://rustyquill.com/crew/tom-park"/>
+                            </rdf:Description>
+                        </sch:actor>
+                    </rdf:Description>
+                </rdf:li>
+                <rdf:li>
+                    <rdf:Description rdf:ID="PoliceOperator">
+                        <rdf:type rdf:resource="https://tmagpo.org/MPCharacter"/>
+                        <sch:characterName>Police Operator</sch:characterName>
+                        <sch:actor>
+                            <rdf:Description rdf:about="https://www.imdb.com/name/nm11318554">
+                                <foaf:name>Joe Bence</foaf:name>        
+                            </rdf:Description>
+                        </sch:actor>
+                    </rdf:Description>
+                </rdf:li>
+                <rdf:li rdf:resource="#LenaKelley"/>
+                <rdf:li>
+                    <rdf:Description rdf:ID="CeliaRipley">
+                        <rdf:type rdf:resource="https://tmagpo.org/OIAREmployee"/>
+                        <dct:description rdf:resource="https://themagnusprotocol.miraheze.org/wiki/Celia_Ripley"/>
+                        <sch:characterName>Celia Ripley</sch:characterName>
+                        <sch:actor rdf:resource="https://www.imdb.com/name/nm9824774"/>
+                            <!--Lowri Ann Davies-->
+                    </rdf:Description>
+                </rdf:li>
+            </rdf:Seq>
+        </sch:character>
+        
+        <!--👁👁👁 Cases 👁👁👁-->
+        
+        <tmagpo:hasCase>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://tmagpo.org/Case"/>
+                <tmagpo:oiarClass>CAT1RB4824-09022024-12022024</tmagpo:oiarClass>
+                <tmagpo:oiarClassCAT>1</tmagpo:oiarClassCAT>
+                <tmagpo:oiarClassRank>B</tmagpo:oiarClassRank>
+                <tmagpo:oiarClassDPHW>4824</tmagpo:oiarClassDPHW>
+                <tmagpo:oiarClassDPHWScore>Injury (needles) -/- intimidation</tmagpo:oiarClassDPHWScore>
+                <tmagpo:caseFormat>999 call</tmagpo:caseFormat>
+                <tmagpo:oiarClassDateOccuredCode>09022024</tmagpo:oiarClassDateOccuredCode>
+                <tmagpo:oiarClassDateOccured>2024-02-09</tmagpo:oiarClassDateOccured>
+                <tmagpo:oiarClassDateFiledCode>12022024</tmagpo:oiarClassDateFiledCode>
+                <tmagpo:oiarClassDateFiled>2024-02-12</tmagpo:oiarClassDateFiled>
+                <tmagpo:caseReceivedBy rdf:resource="#SamamaKhalid"/>
+            </rdf:Description>
+        </tmagpo:hasCase>
+        
+        <!--👁👁👁 Transcripts 👁👁👁-->
+        
+        <tmagpo:transcriptOfficial rdf:resource="https://assets.rustyquill.com/transcripts/the-magnus-protocol/1/MAGP%2006%20-%20Introductions_Transcript.pdf"/>
+        <tmagpo:transcriptUnofficial rdf:resource="https://ghostwires.github.io/transcripts/tmagp/006.html"/>
+        
+        <!--👁👁👁 Credits 👁👁👁-->
+        
+        <sch:director rdf:resource="https://www.imdb.com/name/nm11626865"/>
+            <!--Alexander J. Newall-->
+        <vra:writer rdf:resource="http://viaf.org/viaf/56164779024708342921"/>
+            <!--Jonathan Sims-->
+        <tmagpo:scriptEditor rdf:resource="https://www.imdb.com/name/nm11626865"/>
+            <!--Alexander J. Newall-->
+        <tmagpo:dialogueEditor rdf:resource="https://www.imdb.com/name/nm12785895"/>
+            <!--Nico Vettese-->
+        <tmagpo:soundDesigner rdf:resource="https://www.imdb.com/name/nm12913195"/>
+            <!--Tessa Vroom-->
+        <tmagpo:masteringEditor rdf:resource="https://www.imdb.com/name/nm11724125"/>
+            <!--Catherine Rinella-->
+        <sch:musicBy rdf:resource="https://www.imdb.com/name/nm6628404"/>
+            <!--Sam Jones-->
+        <tmagpo:orchestrationBy rdf:resource="#JakeJackson"/>
+        
+        <!--👁👁👁 References 👁👁👁-->
+        
+        <dct:description rdf:resource="https://themagnusprotocol.miraheze.org/wiki/MAGP_6:_Introductions"/>
+        
+    </rdf:Description>
+    
+    <!--
+    👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁
+     S1, Ep7: Give and Take
+    👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁
+    -->
+    
+    <rdf:Description rdf:about="https://www.youtube.com/watch?v=pfxB8hpeZIw">
+        <rdf:type rdf:resource="https://schema.org/PodcastEpisode"/>
+        
+        <!--👁👁👁 Basic Episode Info 👁👁👁-->
+        
+        <dct:title>Give and Take</dct:title>
+        <sch:seasonNumber>1</sch:seasonNumber>
+        <sch:episodeNumber>7</sch:episodeNumber>
+        <sch:datePublished>2024-02-22</sch:datePublished>
+        <sch:partOfSeries rdf:resource="#TheMagnusProtocol"/>
+        <tmagpo:episodeDuration>00:22:08</tmagpo:episodeDuration>
+        <tmagpo:incidentElement>
+            <rdf:Seq>
+                <rdf:li>Claustrophobia</rdf:li>
+                <rdf:li>Agoraphobia</rdf:li>
+                <rdf:li>Gun violence</rdf:li>
+                <rdf:li>Fire</rdf:li>
+                <rdf:li>Mentions of – human remains, rotting food, blood, suffocation</rdf:li>
+            </rdf:Seq>
+        </tmagpo:incidentElement>
+        
+        <!--👁👁👁 Characters and Actors 👁👁👁-->
+        
+        <sch:character>
+            <rdf:Seq>    
+                <rdf:li rdf:resource="#AliceDyer"/>
+                <rdf:li rdf:resource="#CeliaRipley"/>
+                <rdf:li rdf:resource="#Chester"/>
+                <rdf:li rdf:resource="#SamamaKhalid"/>
+                <rdf:li rdf:resource="#ColinBecher"/>
+                <rdf:li rdf:resource="#GwendolynBouchard"/>
+                <rdf:li rdf:resource="#LenaKelley"/>
+                <rdf:li rdf:resource="#Klaus"/>
+            </rdf:Seq>
+        </sch:character>
+        
+        <!--👁👁👁 Cases 👁👁👁-->
+        
+        <tmagpo:hasCase>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://tmagpo.org/Case"/>
+                <tmagpo:oiarClass>CAT2RC3338-03022016-12022024</tmagpo:oiarClass>
+                <tmagpo:oiarClassCAT>2</tmagpo:oiarClassCAT>
+                <tmagpo:oiarClassRank>C</tmagpo:oiarClassRank>
+                <tmagpo:oiarClassDPHW>3338</tmagpo:oiarClassDPHW>
+                <tmagpo:oiarClassDPHWScore>Agglomeration (miscellany) -/- congregation</tmagpo:oiarClassDPHWScore>
+                <tmagpo:caseFormat>email</tmagpo:caseFormat>
+                <tmagpo:oiarClassDateOccuredCode>03022016</tmagpo:oiarClassDateOccuredCode>
+                <tmagpo:oiarClassDateOccured>2016-02-03</tmagpo:oiarClassDateOccured>
+                <tmagpo:oiarClassDateFiledCode>12022024</tmagpo:oiarClassDateFiledCode>
+                <tmagpo:oiarClassDateFiled>2024-02-12</tmagpo:oiarClassDateFiled>
+                <tmagpo:caseReceivedBy rdf:resource="#CeliaRipley"/>
+                <tmagpo:fr3-d1VoiceReader rdf:resource="#Chester"/>
+            </rdf:Description>
+        </tmagpo:hasCase>
+        
+        <!--👁👁👁 Glitch Lines 👁👁👁-->
+        
+        <tmagpo:hasGlitchLine>
+            <rdf:Seq>
+                <rdf:li>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="https://tmagpo.org/GlitchLine"/>
+                        <tmagpo:line>"Just figuring it all out."</tmagpo:line>
+                        <tmagpo:speaker rdf:resource="#CeliaRipley"/>
+                        <tmagpo:timestamp>00:02:57</tmagpo:timestamp>
+                    </rdf:Description>
+                </rdf:li>
+                <rdf:li>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="https://tmagpo.org/GlitchLine"/>
+                        <tmagpo:line>"No I’m fine really."</tmagpo:line>
+                        <tmagpo:speaker rdf:resource="#CeliaRipley"/>
+                        <tmagpo:timestamp>00:14:56</tmagpo:timestamp>
+                    </rdf:Description>
+                </rdf:li>
+            </rdf:Seq>
+
+        </tmagpo:hasGlitchLine>
+        
+        <!--👁👁👁 Transcripts 👁👁👁-->
+        
+        <tmagpo:transcriptOfficial rdf:resource="https://assets.rustyquill.com/transcripts/the-magnus-protocol/1/MAGP%2007%20-%20Give%20and%20Take_Transcript.pdf"/>
+        <tmagpo:transcriptUnofficial rdf:resource="https://ghostwires.github.io/transcripts/tmagp/007.html"/>
+        
+        <!--👁👁👁 Credits 👁👁👁-->
+        
+        <sch:director rdf:resource="https://www.imdb.com/name/nm11626865"/>
+            <!--Alexander J. Newall-->
+        <vra:writer rdf:resource="https://www.imdb.com/name/nm11626865"/>
+            <!--Alexander J. Newall-->
+        <tmagpo:scriptEditor rdf:resource="http://viaf.org/viaf/56164779024708342921"/>
+            <!--Jonathan Sims-->
+        <tmagpo:dialogueEditor rdf:resource="https://www.imdb.com/name/nm12785895"/>
+            <!--Nico Vettese-->
+        <tmagpo:soundDesigner rdf:resource="https://www.imdb.com/name/nm14174093"/>
+            <!--Meg McKellar-->
+        <tmagpo:masteringEditor rdf:resource="https://www.imdb.com/name/nm11724125"/>
+            <!--Catherine Rinella-->
+        <sch:musicBy rdf:resource="https://www.imdb.com/name/nm6628404"/>
+            <!--Sam Jones-->
+        <tmagpo:orchestrationBy rdf:resource="#JakeJackson"/>
+        
+        <!--👁👁👁 References 👁👁👁-->
+        
+        <dct:description rdf:resource="https://themagnusprotocol.miraheze.org/wiki/MAGP_7:_Give_and_Take"/>
+        
+    </rdf:Description>
+    
+    <!--
+    👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁
+     S1, Ep8: Running on Empty
+    👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁
+    -->
+    
+    <rdf:Description rdf:about="https://www.youtube.com/watch?v=xyaZOmEzTqg">
+        <rdf:type rdf:resource="https://schema.org/PodcastEpisode"/>
+        
+        <!--👁👁👁 Basic Episode Info 👁👁👁-->
+        
+        <dct:title>Running on Empty</dct:title>
+        <sch:seasonNumber>1</sch:seasonNumber>
+        <sch:episodeNumber>8</sch:episodeNumber>
+        <sch:datePublished>2024-02-29</sch:datePublished>
+        <sch:partOfSeries rdf:resource="#TheMagnusProtocol"/>
+        <tmagpo:episodeDuration>00:25:45</tmagpo:episodeDuration>
+        <tmagpo:incidentElement>
+            <rdf:Seq>
+                <rdf:li>Temporal Distortion</rdf:li>
+                <rdf:li>Spatial Distortion</rdf:li>
+                <rdf:li>Altered Reality</rdf:li>
+                <rdf:li>Isolation</rdf:li>
+                <rdf:li>Graphic Violence</rdf:li>
+                <rdf:li>Canibalism</rdf:li>
+                <rdf:li>Mentions of – stress, trauma, psychological breakdown, starvation</rdf:li>
+            </rdf:Seq>
+        </tmagpo:incidentElement>
+        
+        <!--👁👁👁 Characters and Actors 👁👁👁-->
+        
+        <sch:character>
+            <rdf:Seq>    
+                <rdf:li rdf:resource="#Norris"/>
+                <rdf:li rdf:resource="#GwendolynBouchard"/>
+                <rdf:li rdf:resource="#AliceDyer"/>
+                <rdf:li>
+                    <rdf:Description rdf:ID="GerryKeay">
+                        <rdf:type rdf:resource="https://tmagpo.org/MPCharacter"/>
+                        <dct:description rdf:resource="https://themagnusprotocol.miraheze.org/wiki/Gerard_Keay"/>
+                        <sch:characterName>
+                            <rdf:Alt>
+                                <rdf:li>Gerry Keay</rdf:li>
+                                <rdf:li>Gerard Keay</rdf:li>
+                            </rdf:Alt>
+                        </sch:characterName>
+                        <sch:actor>
+                            <rdf:Description rdf:about="https://www.imdb.com/name/nm5830085">
+                                <foaf:name>Jon Gracey</foaf:name>
+                                <foaf:homepage rdf:resource="https://jongracey.sexy"/>
+                            </rdf:Description>
+                        </sch:actor>
+                    </rdf:Description>
+                </rdf:li>
+                <rdf:li rdf:resource="#CeliaRipley"/>
+                <rdf:li rdf:resource="#SamamaKhalid"/>
+                <rdf:li>
+                    <rdf:Description rdf:ID="GertrudeRobinson">
+                        <rdf:type rdf:resource="https://tmagpo.org/MPCharacter"/>
+                        <dct:description rdf:resource="https://themagnusprotocol.miraheze.org/wiki/Gertrude_Robinson"/>
+                        <sch:characterName>Gertrude Robinson</sch:characterName>
+                        <sch:actor>
+                            <rdf:Description rdf:about="https://www.imdb.com/name/nm11666888">
+                                <foaf:name>Sue Sims</foaf:name>        
+                                <dct:description rdf:resource="https://the-podcast-archives.fandom.com/wiki/Sue_Sims"/>
+                            </rdf:Description>
+                        </sch:actor>
+                    </rdf:Description>
+                </rdf:li>
+            </rdf:Seq>
+        </sch:character>
+        
+        <!--👁👁👁 Cases 👁👁👁-->
+        
+        <tmagpo:hasCase>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://tmagpo.org/Case"/>
+                <tmagpo:oiarClass>CAT2RBC3366-12072023-28022024</tmagpo:oiarClass>
+                <tmagpo:oiarClassCAT>2</tmagpo:oiarClassCAT>
+                <tmagpo:oiarClassRank>BC</tmagpo:oiarClassRank>
+                <tmagpo:oiarClassDPHW>3366</tmagpo:oiarClassDPHW>
+                <tmagpo:oiarClassDPHWScore>Architecture (liminal) -/-hunger</tmagpo:oiarClassDPHWScore>
+                <tmagpo:caseFormat>coursework</tmagpo:caseFormat>
+                <tmagpo:oiarClassDateOccuredCode>12072023</tmagpo:oiarClassDateOccuredCode>
+                <tmagpo:oiarClassDateOccured>2023-07-12</tmagpo:oiarClassDateOccured>
+                <tmagpo:oiarClassDateFiledCode>28022024</tmagpo:oiarClassDateFiledCode>
+                <tmagpo:oiarClassDateFiled>2024-02-28</tmagpo:oiarClassDateFiled>
+                <tmagpo:caseReceivedBy rdf:resource="#AliceDyer"/>
+                <tmagpo:fr3-d1VoiceReader rdf:resource="#Norris"/>
+            </rdf:Description>
+        </tmagpo:hasCase>
+        
+        <!--👁👁👁 Glitch Lines 👁👁👁-->
+        
+        <tmagpo:hasGlitchLine>
+            <rdf:Seq>
+                <rdf:li>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="https://tmagpo.org/GlitchLine"/>
+                        <tmagpo:line>"Well I’m sorry, but I don’t think Gerry can help you-"</tmagpo:line>
+                        <tmagpo:speaker rdf:resource="#GertrudeRobinson"/>
+                        <!--
+                        <tmagpo:timestamp>00:21:05</tmagpo:timestamp>
+                        -->
+                    </rdf:Description>
+                </rdf:li>
+                <rdf:li>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="https://tmagpo.org/GlitchLine"/>
+                        <tmagpo:line>"Yeah I barely remember any of it."</tmagpo:line>
+                        <tmagpo:speaker rdf:resource="#GerryKeay"/>
+                        <tmagpo:timestamp>00:21:08</tmagpo:timestamp>
+                    </rdf:Description>
+                </rdf:li>
+                <rdf:li>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="https://tmagpo.org/GlitchLine"/>
+                        <tmagpo:line>"Then yeah. I’m doing a favor for Georgie."</tmagpo:line>
+                        <tmagpo:speaker rdf:resource="#CeliaRipley"/>
+                        <tmagpo:timestamp>00:23:27</tmagpo:timestamp>
+                    </rdf:Description>
+                </rdf:li>
+            </rdf:Seq>
+            
+        </tmagpo:hasGlitchLine>
+        
+        <!--👁👁👁 Transcripts 👁👁👁-->
+        
+        <tmagpo:transcriptOfficial rdf:resource="https://assets.rustyquill.com/transcripts/the-magnus-protocol/1/MAGP%2008%20-%20Running%20on%20Empty_Transcript.pdf"/>
+        <tmagpo:transcriptUnofficial rdf:resource="https://ghostwires.github.io/transcripts/tmagp/008.html"/>
+        
+        <!--👁👁👁 Credits 👁👁👁-->
+        
+        <sch:director rdf:resource="https://www.imdb.com/name/nm11626865"/>
+            <!--Alexander J. Newall-->
+        <vra:writer rdf:resource="https://www.imdb.com/name/nm11626865"/>
+            <!--Alexander J. Newall-->
+        <tmagpo:scriptEditor rdf:resource="http://viaf.org/viaf/56164779024708342921"/>
+            <!--Jonathan Sims-->
+        <tmagpo:dialogueEditor rdf:resource="https://www.imdb.com/name/nm9824774"/>
+            <!--Lowri Ann Davies-->
+        <tmagpo:soundDesigner rdf:resource="https://www.imdb.com/name/nm12913195"/>
+            <!--Tessa Vroom-->
+        <tmagpo:masteringEditor rdf:resource="https://www.imdb.com/name/nm11724125"/>
+            <!--Catherine Rinella-->
+        <sch:musicBy rdf:resource="https://www.imdb.com/name/nm6628404"/>
+            <!--Sam Jones-->
+        <tmagpo:orchestrationBy rdf:resource="#JakeJackson"/>
+        
+        <!--👁👁👁 References 👁👁👁-->
+        
+        <dct:description rdf:resource="https://themagnusprotocol.miraheze.org/wiki/MAGP_8:_Running_on_Empty"/>
+        
+    </rdf:Description>
+    
+    <!--
+    👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁
+     S1, Ep9: Rolling With It
+    👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁
+    -->
+    
+    <rdf:Description rdf:about="https://www.youtube.com/watch?v=GqSmup-d3Jw">
+        <rdf:type rdf:resource="https://schema.org/PodcastEpisode"/>
+        
+        <!--👁👁👁 Basic Episode Info 👁👁👁-->
+        
+        <dct:title>Rolling With It</dct:title>
+        <sch:seasonNumber>1</sch:seasonNumber>
+        <sch:episodeNumber>9</sch:episodeNumber>
+        <sch:datePublished>2024-04-07</sch:datePublished>
+        <sch:partOfSeries rdf:resource="#TheMagnusProtocol"/>
+        <tmagpo:episodeDuration>00:25:07</tmagpo:episodeDuration>
+        <tmagpo:incidentElement>
+            <rdf:Seq>
+                <rdf:li>Addiction (Gambling)</rdf:li>
+                <rdf:li>Vehicle Accident</rdf:li>
+                <rdf:li>Graphic Violence</rdf:li>
+                <rdf:li>Mentions of – superstition</rdf:li>
+            </rdf:Seq>
+        </tmagpo:incidentElement>
+        
+        <!--👁👁👁 Characters and Actors 👁👁👁-->
+        
+        <sch:character>
+            <rdf:Seq>    
+                <rdf:li rdf:resource="#SamamaKhalid"/>
+                <rdf:li rdf:resource="#CeliaRipley"/>
+                <rdf:li rdf:resource="#Chester"/>
+                <rdf:li rdf:resource="#LenaKelley"/>
+                <rdf:li rdf:resource="#GwendolynBouchard"/>
+                <rdf:li rdf:resource="#AliceDyer"/>
+                <rdf:li rdf:resource="#TeddyVaughn"/>
+            </rdf:Seq>
+        </sch:character>
+        
+        <!--👁👁👁 Cases 👁👁👁-->
+        
+        <tmagpo:hasCase>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://tmagpo.org/Case"/>
+                <tmagpo:oiarClass>CAT3RB3354-14101998-08032024</tmagpo:oiarClass>
+                <tmagpo:oiarClassCAT>3</tmagpo:oiarClassCAT>
+                <tmagpo:oiarClassRank>B</tmagpo:oiarClassRank>
+                <tmagpo:oiarClassDPHW>3354</tmagpo:oiarClassDPHW>
+                <tmagpo:oiarClassDPHWScore>Dice (bone) -/- fate</tmagpo:oiarClassDPHWScore>
+                <tmagpo:caseFormat>Magnus Statement</tmagpo:caseFormat>
+                <tmagpo:oiarClassDateOccuredCode>14101998</tmagpo:oiarClassDateOccuredCode>
+                <tmagpo:oiarClassDateOccured>1998-10-14</tmagpo:oiarClassDateOccured>
+                <tmagpo:oiarClassDateFiledCode>08032024</tmagpo:oiarClassDateFiledCode>
+                <tmagpo:oiarClassDateFiled>2024-03-08</tmagpo:oiarClassDateFiled>
+                <tmagpo:caseReceivedBy rdf:resource="#AliceDyer"/>
+                <tmagpo:fr3-d1VoiceReader rdf:resource="#Chester"/>
+            </rdf:Description>
+        </tmagpo:hasCase>
+
+        <!--👁👁👁 Transcripts 👁👁👁-->
+        
+        <tmagpo:transcriptOfficial rdf:resource="https://assets.rustyquill.com/transcripts/the-magnus-protocol/1/MAGP%2009%20-%20Rolling%20With%20It_Transcript.pdf"/>
+        <tmagpo:transcriptUnofficial rdf:resource="https://ghostwires.github.io/transcripts/tmagp/009.html"/>
+        
+        <!--👁👁👁 Credits 👁👁👁-->
+        
+        <sch:director rdf:resource="https://www.imdb.com/name/nm11626865"/>
+            <!--Alexander J. Newall-->
+        <vra:writer>
+            <rdf:Seq>
+                <rdf:li rdf:resource="http://viaf.org/viaf/56164779024708342921"/> 
+                <!--Jonathan Sims-->
+                <rdf:li rdf:resource="https://www.imdb.com/name/nm11626865"/>
+                <!--Alexander J. Newall-->
+            </rdf:Seq>
+        </vra:writer>
+        <tmagpo:dialogueEditor rdf:resource="https://www.imdb.com/name/nm12785895"/>
+            <!--Nico Vettese-->
+        <tmagpo:soundDesigner rdf:resource="https://www.imdb.com/name/nm14174093"/>
+            <!--Meg McKellar-->
+        <tmagpo:masteringEditor rdf:resource="https://www.imdb.com/name/nm11724125"/>
+            <!--Catherine Rinella-->
+        <sch:musicBy rdf:resource="https://www.imdb.com/name/nm6628404"/>
+            <!--Sam Jones-->
+        <tmagpo:orchestrationBy rdf:resource="#JakeJackson"/>
+        
+        <!--👁👁👁 References 👁👁👁-->
+        
+        <dct:description rdf:resource="https://themagnusprotocol.miraheze.org/wiki/MAGP_9:_Rolling_With_It"/>
+        
+    </rdf:Description>
+    
+    <!--
+    👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁
+     S1, EpX: [Name]
+    👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁👁
+    -->
+    
+    <rdf:Description rdf:about="https://www.youtube.com/watch?v=FjG9lRwn6ZU">
+        <rdf:type rdf:resource="https://schema.org/PodcastEpisode"/>
+        
+        <!--👁👁👁 Basic Episode Info 👁👁👁-->
+        
+        <dct:title>Saturday Night</dct:title>
+        <sch:seasonNumber>1</sch:seasonNumber>
+        <sch:episodeNumber>10</sch:episodeNumber>
+        <sch:datePublished>2024-04-14</sch:datePublished>
+        <sch:partOfSeries rdf:resource="#TheMagnusProtocol"/>
+        <tmagpo:episodeDuration>00:25:53</tmagpo:episodeDuration>
+        <tmagpo:incidentElement>
+            <rdf:Seq>
+                <rdf:li>Psychological torment</rdf:li>
+                <rdf:li>Clowns</rdf:li>
+                <rdf:li>SFX – creepy music (yes, seriously), distorted voices</rdf:li>
+                <rdf:li>Mentions of – murder, serial killers</rdf:li>
+            </rdf:Seq>
+        </tmagpo:incidentElement>
+        
+        <!--👁👁👁 Characters and Actors 👁👁👁-->
+        
+        <sch:character>
+            <rdf:Seq>    
+                <rdf:li>
+                    <rdf:Description rdf:ID="GeraldineHardy">
+                        <rdf:type rdf:resource="https://tmagpo.org/MPCharacter"/>
+                        <sch:characterName>GeraldineHardy</sch:characterName>
+                        <sch:actor>
+                            <rdf:Description rdf:about="https://www.imdb.com/name/nm10391243">
+                                <foaf:name>Catherine Luff</foaf:name>        
+                            </rdf:Description>
+                        </sch:actor>
+                    </rdf:Description>
+                </rdf:li>
+                <rdf:li>
+                    <rdf:Description rdf:ID="NigelDickerson">
+                        <rdf:type rdf:resource="https://tmagpo.org/MPCharacter"/>
+                        <dct:description rdf:resource="https://themagnusprotocol.miraheze.org/wiki/Nigel_Dickerson"/>
+                        <sch:characterName>Nigel Dickerson</sch:characterName>
+                        <sch:actor>
+                            <rdf:Description rdf:about="https://www.imdb.com/name/nm15950709">
+                                <foaf:name>Steve Newman</foaf:name>        
+                            </rdf:Description>
+                        </sch:actor>
+                    </rdf:Description>
+                </rdf:li>
+                <rdf:li rdf:resource="#CeliaRipley"/>
+                <rdf:li rdf:resource="#ColinBecher"/>
+                <rdf:li rdf:resource="#SamamaKhalid"/>
+                <rdf:li rdf:resource="#AliceDyer"/>
+                <rdf:li rdf:resource="#GwendolynBouchard"/>
+                <rdf:li>
+                    <rdf:Description rdf:ID="MrBonzo">
+                        <rdf:type rdf:resource="https://tmagpo.org/External"/>
+                        <dct:description rdf:resource="https://themagnusprotocol.miraheze.org/wiki/Mr._Bonzo"/>
+                        <sch:characterName>Mr. Bonzo</sch:characterName>
+                        <!--Actor listed as "Uncredited"-->
+                    </rdf:Description>
+                </rdf:li>
+            </rdf:Seq>
+        </sch:character>
+        
+        <!--👁👁👁 Cases 👁👁👁-->
+        
+        <tmagpo:hasCase>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://tmagpo.org/Case"/>
+                <tmagpo:oiarClass>CAT1RB2275-06082021-09032024</tmagpo:oiarClass>
+                <tmagpo:oiarClassCAT>1</tmagpo:oiarClassCAT>
+                <tmagpo:oiarClassRank>B</tmagpo:oiarClassRank>
+                <tmagpo:oiarClassDPHW>2275</tmagpo:oiarClassDPHW>
+                <tmagpo:oiarClassDPHWScore>Mascot (kids) -/- murder</tmagpo:oiarClassDPHWScore>
+                <tmagpo:caseFormat>TV interview</tmagpo:caseFormat>
+                <tmagpo:oiarClassDateOccuredCode>06082021</tmagpo:oiarClassDateOccuredCode>
+                <tmagpo:oiarClassDateOccured>2021-08-06</tmagpo:oiarClassDateOccured>
+                <tmagpo:oiarClassDateFiledCode>09032024</tmagpo:oiarClassDateFiledCode>
+                <tmagpo:oiarClassDateFiled>2024-03-09</tmagpo:oiarClassDateFiled>
+                <tmagpo:caseReceivedBy rdf:resource="#CeliaRipley"/>
+            </rdf:Description>
+        </tmagpo:hasCase>
+        
+        <!--👁👁👁 Transcripts 👁👁👁-->
+        
+        <tmagpo:transcriptOfficial rdf:resource="https://assets.rustyquill.com/transcripts/the-magnus-protocol/1/MAGP%2010%20-%20Saturday%20Night_Transcript.pdf"/>
+        <tmagpo:transcriptUnofficial rdf:resource="https://ghostwires.github.io/transcripts/tmagp/010.html"/>
+        
+        <!--👁👁👁 Credits 👁👁👁-->
+        
+        <sch:director rdf:resource="https://www.imdb.com/name/nm11626865"/>
+            <!--Alexander J. Newall-->
+        <vra:writer rdf:resource="http://viaf.org/viaf/56164779024708342921"/>
+            <!--Jonathan Sims-->
+        <tmagpo:scriptEditor rdf:resource="https://www.imdb.com/name/nm11626865"/>
+            <!--Alexander J. Newall-->
+        <tmagpo:dialogueEditor rdf:resource="https://www.imdb.com/name/nm9824774"/>
+            <!--Celia Ripley-->
+        <tmagpo:soundDesigner rdf:resource="https://www.imdb.com/name/nm12913195"/>
+            <!--Tessa Vroom-->
+        <tmagpo:masteringEditor rdf:resource="https://www.imdb.com/name/nm11724125"/>
+            <!--Catherine Rinella-->
+        <sch:musicBy rdf:resource="https://www.imdb.com/name/nm6628404"/>
+            <!--Sam Jones-->
+        <tmagpo:orchestrationBy rdf:resource="#JakeJackson"/>
+        
+        <!--👁👁👁 References 👁👁👁-->
+        
+        <dct:description rdf:resource="https://themagnusprotocol.miraheze.org/wiki/MAGP_10:_Saturday_Night"/>
+        
+    </rdf:Description>
+    
+</rdf:RDF>
