@@ -1,4 +1,4 @@
-# The-Magnus-PrOntology-TMagPO-
+# The Magnus-PrOntology (TMagPO)
 An RDF/XML metadata schema for describing episodes of _The Magnus Protocol_, distributed by Rusty Quill Ltd. Created in Spring 2025 for the course ILS-Z634 Metadata at Indiana University Bloomington.
 
 **Purpose, Scope, and Audience Statement**
